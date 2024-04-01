@@ -7,6 +7,7 @@
 
 ## focus:
 由于模型和虚拟环境太大，作者将其存放在百度网盘，需要自取
+
 链接：https://pan.baidu.com/s/1B7whtrzf1QKo9JkI0OlQiQ 
 
 提取码：nsfw
