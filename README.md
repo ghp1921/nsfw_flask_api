@@ -1,2 +1,25 @@
 # nsfw_flask_api
 基于flask实现的关于nsfw模型图像分类识别API接口
+
+# 这是一个基于flask开发的nsfw识别分类模型的api接口
+上传部分仅包括纯代码部分。
+
+## 由于模型和虚拟环境太大，作者将其存放在百度网盘，需要自取
+链接：https://pan.baidu.com/s/1B7whtrzf1QKo9JkI0OlQiQ 
+提取码：nsfw
+
+## download option:
+### option 1:直接下载百度网盘中的压缩包，解压缩后你可以获得完整的项目包。
+### option 2:如果你不需要作者的虚拟化环境，你可以直接下载网盘中的模型文件：nsfw.299x299.h5
+
+## 项目目录结构
+-local file 文件夹    模拟客户端本地图片目录，内含用于上传到flask服务端识别的图片
+-nsfw_detector 文件夹    模拟服务器端模型模块目录，内涵调用模型的文件'predict.py'，用于暂存接收到的图片资源的data文件夹，和模型文件nsfw.299x299.h5（github托管的压缩包没有，需要从网盘下载）。
+-static 文件夹    无用
+-templates 文件夹    无用
+-venv 文件夹    虚拟化环境（github托管的压缩包没有，环境文件太大了，请按照requirements.txt内环境要求进行配置，若想直接使用，请下载网盘压缩包。）
+-app.py py文件    用于启动flask服务
+-requirements.txt txt文件    第三方库文档
+-use_apirequests.py py文件    用于模拟客户端发送请求
+
+## 研究目的：仅供学习使用
